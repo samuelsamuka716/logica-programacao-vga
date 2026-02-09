@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center>
+        <h1>Jogo da Velha</h1>
+        
+        <p>
+            <input type="text" id="jogador1" placeholder="Nome Jogador 1 (X)">
+            <input type="text" id="jogador2" placeholder="Nome Jogador 2 (O)">
+        </p>
+        
+        <input type="button" value="Iniciar Jogo" onclick="initGame()">
+
+        <br><br>
+
+        <div id="game">
+            <h3 id="jogadorAtual"></h3>
+            
+            <table id="tabuleiro">
+                <tr>
+                    <td id="0" onclick="jogar(0)"></td>
+                    <td id="1" onclick="jogar(1)"></td>
+                    <td id="2" onclick="jogar(2)"></td>
+                </tr>
+                <tr>
+                    <td id="3" onclick="jogar(3)"></td>
+                    <td id="4" onclick="jogar(4)"></td>
+                    <td id="5" onclick="jogar(5)"></td>
+                </tr>
+                <tr>
+                    <td id="6" onclick="jogar(6)"></td>
+                    <td id="7" onclick="jogar(7)"></td>
+                    <td id="8" onclick="jogar(8)"></td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <button onclick="reset()">Reiniciar a partida</button>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

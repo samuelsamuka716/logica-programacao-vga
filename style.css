@@ -1,0 +1,52 @@
+/* Configuração geral da fonte conforme seu rascunho */
+body {
+    background: #BA55D3; /* Fundo roxo que você definiu */
+    border-radius: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+/* Estilo da tabela (tabuleiro) */
+table {
+    background: #E11584; /* O rosa específico da folha */
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    margin: 0 auto; /* Para centralizar */
+}
+
+/* Estilo das células (td) */
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 46px;
+    border: 1px solid white;
+}
+
+td:hover {
+    cursor: pointer; /* Mãozinha no mouse */
+    background-color: #BA55D3; /* Efeito ao passar o mouse */
+}
+
+/* Estilo da tag center */
+center {
+    font-size: 15px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    color: lightpink; /* "light pink" escrito na folha */
+}
+
+/* Estilo dos links e botões */
+button, input[type="button"] {
+    background: #BA55D3;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
